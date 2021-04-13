@@ -1,0 +1,866 @@
+*{
+	box-sizing: border-box;
+}
+body{
+	margin: auto;
+	background-color: #221d1e;
+}
+.buscar1{
+	background: darkorange;
+	margin-left:40px;
+	animation:backInUp;
+	animation-duration:2s;
+}
+.buscar2{
+	background:rgb(249 178 51);
+	margin-right:50px;
+	animation:backInUp;
+	animation-duration:5s;
+}
+.bu1{
+    animation:backInUp;
+	animation-duration:3s;
+}
+.bu2{
+	animation:backInUp;
+	animation-duration:4s;
+}
+.buscar3{
+	margin-right:30px;
+}
+.grisf{
+	background:#404042;
+	height:90vh;
+	width: 100%;
+}
+.text{
+	background: grey;
+	width:95%;
+	height:90vh;
+}
+.t{
+	display:flex;
+	justify-content: center;
+	margin-top:40px;
+	color: white;
+	animation:backInDown; 
+    animation-duration: 18s; 
+}
+.box1{
+	margin-top: 30px;
+	background:darkorange;
+	height:200px;
+	width: 350px;
+	animation:backInUp; 
+    animation-duration: 6s; 
+}
+.t2{
+	margin-top: 20px;
+	color: white;
+}
+.an1{
+    animation:backInUp;
+    animation-duration:8s;
+}
+.an2{
+    animation:backInUp;
+    animation-duration:14s;
+}
+.a50{
+	animation:backInUp; 
+    animation-duration: 10s; 
+}
+.a501{
+	animation:backInUp; 
+    animation-duration: 16s;
+}
+.a51{
+	animation:backInDown; 
+    animation-duration: 19s; 
+}
+.te1{
+	display:flex;
+	justify-content: center;
+	margin-top:40px;
+	color: white;
+	animation:backInDown; 
+    animation-duration: 20s; 
+}
+.a52{
+	animation:backInDown; 
+    animation-duration: 21s; 
+}
+.te2{
+	display:flex;
+	justify-content: center;
+	margin-top:40px;
+	color: white;
+	animation:backInDown; 
+    animation-duration: 22s; 
+}
+.a53{
+	animation:backInDown; 
+    animation-duration: 23s; 
+}
+.te3{
+	display:flex;
+	justify-content: center;
+	margin-top:40px;
+	color: white;
+	animation:backInDown; 
+    animation-duration: 24s; 
+}
+.a54{
+	animation:backInDown; 
+    animation-duration: 25s; 
+}
+.box2{
+	margin-top: 30px;
+	background:rgb(249 178 51);
+	height:200px;
+	width: 200px;
+    animation:backInUp;
+    animation-duration:12s;
+}
+
+
+
+.caja{
+	display: flex;
+	justify-content: center;
+	background:#404042;
+	height:25vh;
+	width: 100%; 
+	animation:rotateIn; /* referring directly to the animation's @keyframe declaration */
+    animation-duration: 5s; /* don't forget to set a duration! */
+}
+.cuadromenu{
+	background: rgb(249 178 51);
+	height: 200px;
+	margin:15px;
+	animation: backInLeft;
+	animation-duration:8s;
+}
+.t3{
+	color: white;
+	margin: 20px;
+	animation: backInLeft;
+	animation-duration:12s;
+}
+.caja5{
+	background: grey;
+	height:500px;
+	width: 900px;
+	margin-left: 50px;
+	margin-top: 20px;
+	animation: backInLeft;
+	animation-duration:12s;
+}
+.box14{
+	background: gray;
+	height:30px;
+	width: 900px;
+	margin-top: 10px;
+	margin-left: 50px;
+	animation:rollIn;
+	animation-duration:12s;
+}
+.box15{
+	background: gray;
+	height:30px;
+	width: 900px;
+	margin-top: 10px;
+	margin-left: 50px;
+	animation:rollIn;
+	animation-duration:12s;
+}
+.box16{
+	background: gray;
+	height:30px;
+	width: 600px;
+	margin-top: 10px;
+	margin-left: 50px;
+	animation:rollIn;
+	animation-duration:12s;
+}
+.cuadrado4{
+	background-color: #484747;
+	padding: 5px;
+	margin: 6px;
+	height: 120px;
+	width: 120px;
+	margin-left: 50px;
+	animation:zoomInDown;
+	animation-duration:15s;
+}
+.cuadrado5{
+	background-color: #484747;
+	padding: 5px;
+	margin: 6px;
+	height: 120px;
+	width: 120px;
+	margin-left: 130px;
+}
+.cuadrado6{
+	background-color: #484747;
+	padding: 5px;
+	margin: 6px;
+	height: 120px;
+	width: 120px;
+	margin-left: 130px;
+}
+.cuadrado7{
+	background-color: #484747;
+	padding: 5px;
+	margin: 6px;
+	height: 120px;
+	width: 120px;
+	margin-left: 130px;
+}
+.caja6{
+	background: grey;
+	height:800px;
+	width: 700px;
+	margin-left: 1020px;
+	animation: flipInX;
+	animation-duration:8s;
+}
+.box17{
+	background:grey;
+	height:10px;
+	width: 120px;
+	margin-top: 10px;
+	margin-left: 50px;
+	animation:zoomInDown;
+	animation-duration:12s;
+}
+.logo1{
+	background-color:red;
+	height: 100px;
+	width: 100px;
+	margin-top: 75px;
+	margin-left:50px;
+	animation:zoomInDown;
+	animation-duration:8s;
+}
+.cajitas{
+	display: flex;
+}
+.s{
+	color:black;
+	animation:zoomInDown;
+	animation-duration:12s;
+}
+.v{
+	color: white;
+	margin-top:60px;
+	animation:zoomInDown;
+	animation-duration:10s;
+}
+
+
+
+
+
+
+.padre{
+	margin-top: 20px;
+	width: 100%;
+}
+.menu1{
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-bottom: 20px;
+}
+.dr{
+	animation:zoomInUp;
+	animation-duration:2s;
+}
+.dr1{
+	animation:zoomInUp;
+	animation-duration:3s;
+}
+.dr2{
+	animation:zoomInUp;
+	animation-duration:4s;
+}
+.dr3{
+	animation:zoomInUp;
+	animation-duration:5s;
+}
+.dr4{
+	animation:zoomInUp;
+	animation-duration:6s;
+}
+.a1{
+	background: white;
+	margin-left: 600px;
+}
+.a2{
+	background: white;
+	margin-left: 600px;
+}
+.b{
+	background: orange;
+	margin-right: 20px;
+}
+.c{
+	width: 200px;
+}
+.logo{
+	background-color:red;
+	height: 100px;
+	width: 100px;
+	margin-left: 400px;
+	margin-top:20px;
+	margin-bottom:20px;
+	animation:slideInLeft;
+	animation-duration:5s;
+}
+.l4{
+    color: white;
+    margin-left: 50px;
+    margin-top: 20px;
+    animation:slideInLeft;
+	animation-duration:6s;
+}
+.l5{
+	color: grey;
+	margin-left: 50px;
+	animation:slideInLeft;
+	animation-duration:7s;
+}
+.caja4{
+	background: grey;
+	height:500px;
+	animation:fadeInBottomLeft;
+	animation-duration:7s;
+}
+.cuadrado1{
+	background-color: #484747;
+	padding: 5px;
+	margin: 6px;
+	height: 80px;
+	width: 80px;
+	margin-left: 50px;
+	animation:fadeInBottomLeft;
+	animation-duration:16s;
+}
+.l6{
+	margin-top: 15px;
+	color: grey;
+	animation:bounceInRight;
+	animation-duration:12s;
+}
+.l61{
+	margin-top: 15px;
+	color: grey;
+	animation:bounceInRight;
+	animation-duration:14s;
+}
+.c{
+	display: flex;
+}
+
+
+
+
+
+.search{
+	background: grey;
+	width:600px;
+	height:30px;
+	margin-top: 50px;
+	margin-left: 50px;
+	animation:bounceInUp;
+	animation-duration:4s;
+}
+.minisearch{
+	background: grey;
+	width:1000px;
+	height:15px;
+	margin-top: 15px;
+	margin-left: 50px;
+	animation:bounceInUp;
+	animation-duration:5s;
+}
+.video{
+	background:rgb(204 41 41);
+	height:700px;
+	width: 1820px;
+	margin-left: 50px;
+	margin-top:30px;
+	animation:jackInTheBox;
+	animation-duration:4s;
+}
+.triangle{
+     width: 0; 
+     height: 0; 
+     border-left: 78px solid black;
+     border-top: 45px solid transparent;
+     border-bottom: 45px solid transparent;
+     margin-top: 15%;
+     margin-left: 45%;
+ }
+.barravideo{
+	margin-top: 350px;
+}
+.bar1{
+	background: white;
+	height: 30px;
+	width: 800px;
+	margin-left: 50px;
+	margin-top: 80px;
+	animation:lightSpeedInRight;
+	animation-duration:6s;
+}
+.bar2{
+	background: white;
+	height: 30px;
+	width: 800px;
+	margin-left:80px;
+	animation:lightSpeedInRight;
+	animation-duration:6s;
+}
+.minibar1{
+	background: grey;
+	height: 10px;
+	width: 800px;
+	margin-left: 50px;
+	margin-top: 10px;
+	animation:rollIn;
+	animation-duration:8s;
+}
+.minibar11{
+	background: grey;
+	height: 10px;
+	width: 800px;
+	margin-left: 80px;
+	margin-top: 10px;
+	animation:rollIn;
+	animation-duration:8s;
+}
+.minibar2{
+	background: grey;
+	height: 10px;
+	width: 800px;
+	margin-left:50px;
+	animation:rollIn;
+	animation-duration:8s;
+}
+.minibar21{
+	background: grey;
+	height: 10px;
+	width: 800px;
+	margin-left:50px;
+	animation:rollIn;
+	animation-duration:8s;
+}
+
+
+
+
+.distribucion{
+	display: flex;
+}
+header{
+	background:#404042;
+	height:50vh;
+	width: 100%;
+	animation:jackInTheBox;
+	animation-duration:5s;
+}
+.rojo{
+	background:#c21d3d;
+	width: 100%;
+	height:45vh;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin:20px;
+	padding:10px;
+	animation:rotateInDownLeft;
+	animation-duration:6s;
+}
+.triangle4{
+     width: 0; 
+     height: 0; 
+     border-left: 78px solid white;
+     border-top: 45px solid transparent;
+     border-bottom: 45px solid transparent;
+ }
+.barragris{
+	background: darkgrey;
+	width: 60%;
+	height:30px; 
+	margin-top: 100px; 
+	animation:rollIn;
+	animation-duration:8s;
+}
+.barragris1{
+	background: darkgrey;
+	width: 80%;
+	height:20px;
+	margin-top: 20px; 
+	animation:rollIn;
+	animation-duration:8s;
+}
+.barragris2{
+	background: darkgrey;
+	width: 40%;
+	height:20px;
+	margin-top: 20px; 
+	animation:rollIn;
+	animation-duration:8s;
+}
+.naranja{
+	background: orange;
+	height: 150px;
+	width: 150px;
+	margin-top:30px;
+	margin-left: 35px;
+	animation:rotateIn;
+	animation-duration:10s;
+}
+.naranjab{
+	background: orange;
+	height: 150px;
+	width: 150px;
+	margin-top:30px;
+	margin-left: 35px;
+	animation:rotateIn;
+	animation-duration:11s;
+}
+.naranjac{
+	background: orange;
+	height: 150px;
+	width: 150px;
+	margin-top:30px;
+	margin-left: 35px;
+	animation:rotateIn;
+	animation-duration:12s;
+}
+.fondogris{
+	background: grey;
+	height: 450px;
+	width: 400px;
+	margin-top:30px;
+	animation:rotateInUpRight;
+	animation-duration:14s; 
+}
+.z{
+	color: white;
+	animation:jackInTheBox;
+	animation-duration:14s; 
+}
+.y{
+	color: grey;
+	animation:rotateInUpRight;
+	animation-duration:14s; 
+}
+.cuadroscol{
+	display: flex;
+	justify-content:center;
+}
+.p{
+	display: flex;
+	justify-content: center;
+}
+
+
+
+.boton{
+	background: darkorange;
+	margin-right: 30px;
+	animation:zoomInUp;
+	animation-duration:7s;
+}
+.boton1{
+	background: grey;
+	margin-right: 30px;
+	animation:zoomInUp;
+	animation-duration:3s;
+}
+.boton12{
+	background: grey;
+	margin-right: 30px;
+	animation:zoomInUp;
+	animation-duration:4s;
+}
+.c1{
+	animation:zoomInUp;
+	animation-duration:5s;
+}
+.c2{
+	animation:zoomInUp;
+	animation-duration:6s;
+}
+.cajagris2{
+	background: #2b2b2d;
+	display: flex;
+	height: 60vh;
+	justify-content: center;
+	margin-top:30px;
+	animation:zoomInRight;
+	animation-duration:5s;
+}
+.cajagris3{
+	background: #2b2b2d;
+	display: flex;
+	height: 30vh;
+	justify-content: center;
+	margin-top: 30px;
+	animation:zoomInRight;
+	animation-duration:6s;
+}
+li{
+	color: white;
+}
+.orange{
+	background: orange;
+	color:white;
+}
+.triangulo1{
+    width: 0; 
+    height: 0; 
+    border-right: 25px solid white;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+	margin-left: 60px;
+	margin-top:150px;
+	animation:zoomInRight;
+	animation-duration:6s;
+}
+.triangulo2{
+	width: 0; 
+    height: 0; 
+    border-left: 25px solid white;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+	margin-top:150px;
+	animation:zoomInRight;
+	animation-duration:6s;
+}
+.cajas{
+	display: flex;
+}
+.cajanaranja{
+	background: orange;
+	height: 100px;
+	width: 100px;
+	margin: 20px;
+	animation:zoomInDown;
+	animation-duration:8s;
+}
+.cajanaranja1{
+	background: orange;
+	height: 30px;
+	width: 100px;
+	margin: 20px;
+	animation:zoomInDown;
+	animation-duration:10s;
+}
+.textico{
+	margin:10px;
+	color: white;
+	animation:zoomInUp;
+	animation-duration:10s;
+}
+.cajapie{
+	background: #2b2b2d;
+	height:200px;
+}
+.textof{
+	color: white;
+	display: flex;
+	animation:zoomInUp;
+	animation-duration:14s;
+}
+.t1{
+	margin:20px;
+	animation:zoomInLeft;
+	animation-duration:14s;
+}
+
+
+
+
+.buscador{
+	background: white;
+	height:30px;
+	width: 800px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin-left: 250px;
+	margin-top: 180px;
+}
+.cuadrox{
+	height: 300px;
+	width: 300px;
+	background-color: orange;
+	margin-top: 50px;
+	animation:zoomInLeft;
+	animation-duration:5s;
+}
+.gris{
+	background: grey;
+	height: 30px;
+	width: 600px;
+	margin-top: 50px;
+	animation:zoomInUp;
+	animation-duration:7s;
+}
+.gris1{
+	background: grey;
+	height: 15px;
+	width: 600px;
+	margin-top: 15px;
+	animation:zoomInUp;
+	animation-duration:7s;
+}
+.gris2{
+	background: grey;
+	height: 15px;
+	width: 500px;
+	margin-top: 15px;
+	animation:zoomInUp;
+	animation-duration:7s;
+}
+.gris3{
+	background: grey;
+	height: 15px;
+	width: 600px;
+	margin-top: 100px;
+	animation:zoomInUp;
+	animation-duration:7s;
+}
+.boxgris{
+	background: grey;
+	height: 70px;
+	width: 70px;
+	margin-top: 50px;
+	animation:zoomInUp;
+	animation-duration:5s;
+}
+.linea{
+	background: grey;
+	height: 15px;
+	width: 150px;
+	margin-left: 120px;
+}
+
+
+
+
+
+.boxfondo{
+	background-color:grey;
+	height: 500px;
+	margin-top: 30px;
+	animation:zoomInDown;
+	animation-duration:5s;
+}
+.cuadritos{
+	background: darkgrey;
+	height:50px;
+	width: 50px;
+	margin-left: 80px;
+	margin-top: 400px;
+}
+.barran{
+	background:darkorange;
+	height: 30px;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 0px;
+	animation:zoomInLeft;
+	animation-duration:6s;
+}
+.m{
+	color: grey;
+	animation:zoomInLeft;
+	animation-duration:7s;
+}
+.gris2{
+	background: grey;
+	height: 15px;
+	width: 390px;
+	margin-top: 15px;
+	margin-left: 0px;
+}
+.gris3{
+	background: grey;
+	height: 15px;
+	width: 300px;
+	margin-top: 15px;
+	margin-left: 90px;
+}
+.boxgris{
+	background-color: #484747;
+	height: 100px;
+	width: 100px;
+	margin: 5px;
+	margin-top: 20px;
+}
+.f{
+	margin-left: 450px;
+}
+.boxgris2{
+	background-color: #484747;
+	height: 110px;
+	width: 110px;
+	margin: 5px;
+	margin-top: 20px;
+	margin-left: 50px;
+	animation:zoomInUp;
+	animation-duration:9s;
+}
+.boxgris3{
+	align-items: center;
+	justify-content: center;
+	margin-top: 160px;
+}
+
+
+
+
+.barran1{
+	background:darkorange;
+	height: 30px;
+	width: 300px;
+	margin-top: 50px;
+	margin-left: 400px;
+	animation:slideInLeft;
+	animation-duration:3s;
+}
+.m1{
+	color: grey;
+	margin-left: 400px;
+	animation:slideInLeft;
+	animation-duration:4s;
+}
+.m2{
+	color: grey;
+	margin-left: 900px;
+	margin-top: 20px;
+	animation:slideInRight;
+	animation-duration:8s;
+}
+.cajag{
+	background: grey;
+	height:150px;
+	width:150px;
+	margin-right: 100px;
+	margin-top: 50px;
+	animation:slideInUp;
+	animation-duration:6s;
+}
+.cajag1{
+	background: grey;
+	height:150px;
+	width:900px;
+	margin-top: 50px;
+	animation:slideInDown;
+	animation-duration:6s;
+}
